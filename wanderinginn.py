@@ -5,7 +5,10 @@ from selenium.webdriver.support import expected_conditions as E
 import time
 import docx
 url="https://wanderinginn.com/"
-PATH = "C:\\Drivers\\chromedriver.exe"
+# Make sure to upgrade your chrome driver to the present version of whatever your chrome is 
+# To check the present version of chrome go to a new tab in chrome and type chrome://version
+# After that make sure to go to https://chromedriver.chromium.org/downloads to download chromedriver version similar to your chrome
+PATH = "C:\\drivers\\chromedriver.exe"
 a=[]
 b=[]
 wait_time_out =15
